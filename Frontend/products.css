@@ -1,0 +1,169 @@
+body{
+    font-family: arial;
+    margin: 0; 
+    padding-top: 0;
+    background-image: url('../images/cardboard-boxes-conveyor-belt-warehouse_632498-1171.avif');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.main-div{
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-family:  Arial;  
+}
+.h1ims{
+    font-size: 100px;
+    color:pink;
+    margin-bottom: 0px;
+    font-weight: 600px;
+    padding-bottom:0px ;
+}
+.h1ims a{
+    text-decoration: none;
+    color: pink;
+}
+.h2ims{
+    color: rgb(249, 235, 235);
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 10px;
+    text-decoration: underline;
+    text-decoration-color: pink;
+    text-decoration-thickness: 2.5px;  
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    padding:0px;
+    margin-top: 0;
+    background-color: pink;
+    height: 3.5rem;
+    top: 0;
+    
+}
+.navbar ul{
+    margin: 0;
+    margin-right: 20px;
+    float: left;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 50px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    
+}
+.navbar a:hover{
+    color:rgb(201, 150, 158) ;
+    border: 2px solid #fff;
+    border-radius: 20%;
+}
+
+.active{
+    border-bottom: 2px solid white;
+    border-radius: 20%;
+}
+.div-form-login{
+    text-align: left;
+    border-style: groove;
+    display: inline-flex;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left:40px;
+    padding-right: 20px;
+    height: 200px;
+    margin-bottom: 40px;
+    align-content: center;
+    vertical-align: middle;
+    justify-content: center;
+
+
+}
+.div-products-table{
+    background: rgba(51, 48, 48, 0.703);
+    width: 550px;
+    height: 200PX;
+    display: inline-flex;
+    border-style: groove;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left:40px;
+    padding-right: 20px;
+    height: 200px;
+    margin-bottom: 40px;
+    align-content: center;
+    vertical-align: middle;
+    overflow-y: scroll;
+}
+.products-table{
+    width: 550px;
+}
+.tab2{
+
+}
+.div-form-login p a{
+    color: pink;
+}
+.div-form-login{
+    background: rgba(51, 48, 48, 0.703);
+}
+
+.div-form-login form{
+    margin-top: -30px;
+}
+.submit-btn{
+    text-align: center;
+    align-items: center;
+    color: white;
+    background:rgb(28, 55, 105);
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.submit-btn:hover{
+    cursor: pointer;
+}
+.footer{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(243, 232, 233);
+    color:rgb(243, 232, 233);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    bottom: 0;
+    z-index: 1000;
+    position: relative;
+}
+.footer a{
+    text-decoration: none;
+    color:rgb(163, 154, 155);
+    padding: 0;
+    margin-left: 30px;
+}
+.footer a:hover{
+    font-weight: bold;
+    color: #f8a4b9;
+    transition: 0.5s all;
+}

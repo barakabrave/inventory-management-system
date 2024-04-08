@@ -1,0 +1,86 @@
+body {
+    color: white;
+    /* background-color: rgba(255, 240, 240, 0.756);  */
+    font-family:  Arial;
+    background-image: url('../images/inventory3.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+
+}
+.maindiv{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.h1ims{
+    font-size: 100px;
+    color:pink;
+    margin-bottom: 0px;
+    font-weight: 600px;
+    padding-bottom:0px ;
+}
+.h1ims a{
+    text-decoration: none;
+    color: pink;
+}
+.h2ims{
+    color: rgb(249, 235, 235);
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 10px;
+    text-decoration: underline;
+    text-decoration-color: pink;
+    text-decoration-thickness: 2.5px;
+    
+}
+.div-form-login{
+    text-align: left;
+    border-style: groove;
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left:40px;
+    padding-right: 20px;
+    height: 250px;
+    margin-bottom: 40px;
+
+}
+.div-form-login p a{
+    color: pink;
+}
+.txt-username{
+    text-align: center;
+    font-style: italic;
+    height: 20px;
+    width: 400px;
+}
+
+.txt-password{
+    text-align: center;
+    font-style: italic;
+    height: 20px;
+    width: 400px;
+
+}
+.submit-btn{
+    text-align: center;
+    align-items: center;
+    color: white;
+    background:rgb(28, 55, 105);
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+    cursor: pointer;
+}
+.div-form-login{
+   background: rgba(51, 48, 48, 0.703);
+}
+    

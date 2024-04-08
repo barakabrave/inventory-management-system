@@ -1,0 +1,124 @@
+body{
+    background-image: url('../images/inventory2.jpg'); 
+    background-color: rgb(165, 163, 163);
+    background-blend-mode: multiply;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 200vh; 
+    vertical-align: middle;
+    font-family: arial;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+.container{
+    display: flex;
+    width: 700px;
+    height: 550px;
+    align-self: center;
+    margin-top: 20px;
+}
+.main-div{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.h1ims{
+    font-size: 100px;
+    color:pink;
+    margin: 5px 0 0 0;
+    font-weight: 600px;
+    padding-bottom:0px ;
+}
+.h1ims a{
+    text-decoration: none;
+    color: pink;
+}
+.h2ims{
+    color: rgb(251, 247, 247);
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 10px;
+    text-decoration: underline;
+    text-decoration-color: pink;
+    text-decoration-thickness: 2.5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.div-information{
+    background-color: rgba(0, 0, 0,0.7);
+    color: white;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;   
+}
+.div-form{
+    color:rgb(250, 155, 171);
+    background-color:rgba(131, 110, 113,0.7);
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 20px;
+}
+.div-form a{
+    color: white;
+}
+.btn-have-account{
+    background:rgb(56, 81, 126);
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    
+}
+.btn-have-account a{
+    text-decoration: none;
+    color: black;
+}
+.btn-have-account:hover{
+    background:white;
+    color: white;
+    cursor: pointer;
+}
+
+.p-information{
+    font-size: 14px;
+}
+
+.btn-register:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.txt-email{
+    width: 350px;
+}
+.disabled{
+    cursor: not-allowed;
+    background:rgb(56, 81, 126);
+    color: black;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
